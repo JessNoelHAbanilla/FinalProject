@@ -1,0 +1,59 @@
+ 
+   body
+   {
+        background-color: #4accf7;
+   }
+    h1
+    {
+        text-align: center;
+        font-family: Arial Black;
+        font-size: 60px;
+        color: white;
+        background-color: #5347a1;
+    } 
+    p
+    {
+        color: black;
+        font-family: Trebuchet MS;
+        font-size: 100%;
+        text-align: justify;
+        margin-right: 10em;
+        clear: right;
+    }
+    .quote
+    {
+        padding: 1em;
+        border: 1px;
+        margin: 1em
+        font-family: Trebuchet MS;
+        color: #5347a1;
+    }
+    h4
+    {
+        background-color: #5347a1;
+        color: white;
+        font-family: Arial;
+        padding: 4px;
+        text-align: center;
+    }
+    img
+    {
+        margin-left: 9em;
+        padding: 1em;
+        float: left;
+    }
+    table
+    {
+       border: 1px solid blue;
+       width: 50%;
+       border-collapse: collapse;
+       text-align: center;
+       margin-left: 18em;
+    }
+    ul, li
+    {
+       font-family: Trebuchet MS;
+       color: #5347a1;
+       list-style-type: none;
+    }
+
