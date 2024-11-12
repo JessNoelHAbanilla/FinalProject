@@ -1,5 +1,4 @@
- 
-   body
+body
    {
         background-color: #4accf7;
    }
@@ -56,4 +55,16 @@
        color: #5347a1;
        list-style-type: none;
     }
-
+    table {
+        margin: 0;
+        padding: 10;
+        background-color: #5347a1;
+        overflow: hidden;
+        color: white;
+        width: 30%
+       }
+    tr {
+        float: left;
+       }
+    a.link:hover {background-color: #a79aff, color: black};
+    a.link:visited {background-color: #a79aff, color: black};
