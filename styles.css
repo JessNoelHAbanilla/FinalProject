@@ -69,9 +69,11 @@ body
     a.link:visited {background-color: #a79aff, color: black;}
     .img {
         transform: rotate(360deg);
+        display: flex;
     }
     .img2 {
         transform: rotate(360deg);
+        display: flex
     }
     .img:hover {
         transform: rotate(180deg) scale(1.5);
@@ -80,4 +82,10 @@ body
     .img2:hover {
         transform: rotate(180deg) scale(1.5);
         transition: width 6s, ease-in-out 0.2s;
+    }
+    .spriteA {
+        background: url('elements/socmed.png') no-repeat -182px -37px;
+        width: 29px;
+        height: 29pixels;
+        float: right;
     }
