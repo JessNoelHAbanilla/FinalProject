@@ -18,7 +18,7 @@ body
         color: white;
         background-color: #6757d1;
     } 
-    p
+    p,.text
     {
         color: black;
         font-family: Trebuchet MS;
@@ -136,3 +136,59 @@ img { background-size: 30px 20px;}
 :root {
     background-color: white;
 }
+
+.back-button {
+	background-color: #56e0f0;
+    border: solid #2c60a8;
+    color: #2c60a8;
+	margin-left: 4em;
+	padding: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(214, 117, 117);
+}
+
+#quiz {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #6757d1;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(198, 222, 60, 0.2);
+}
+
+#question {
+  margin-bottom: 20px;
+}
+
+#choices {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgb(227, 238, 10), 245, 161);
+  color: #131313;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+button:hover,#next:hover {
+  background-color: #d3e0f5;
+}
+
+#next {
+  text-align: center;
+  color: #2c60a8;
+  background-color: #56e0f0;
+  border: solid #2c60a8;
+}
+
+
